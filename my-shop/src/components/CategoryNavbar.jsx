@@ -91,7 +91,7 @@ export default function CategoryNavbar() {
   const navigate = useNavigate();
 
   return (
-    <nav style={{ background: "linear-gradient(to right, #e91e8c, #9c27b0)", position: "relative", zIndex: 100 }}>
+    <nav style={{ background: "linear-gradient(to right, #2D3A8C, #3D4FAC, #E8C4C4)", position: "relative", zIndex: 100 }}>
       <div style={{ display: "flex", alignItems: "center", padding: "0 24px", gap: "4px", flexWrap: "wrap" }}>
         {categories.map((cat) => (
           <div
@@ -152,7 +152,7 @@ export default function CategoryNavbar() {
         ))}
 
         <button style={{
-          marginLeft: "auto", background: "white", color: "#e91e8c",
+          marginLeft: "auto", background: "white", color: "#2D3A8C",
           border: "none", padding: "8px 20px", borderRadius: "20px",
           fontWeight: "700", cursor: "pointer", fontSize: "13px",
         }}>
@@ -162,4 +162,3 @@ export default function CategoryNavbar() {
     </nav>
   );
 }
-

@@ -16,6 +16,8 @@ body {
   display: inline-block;
 }
 
+
+
 .category-card {
   background: linear-gradient(to bottom right, #F5EDE8, #E8C4C4);
   border-radius: 24px;
@@ -71,12 +73,20 @@ body {
   transform: translateX(5px);
 }
 
+
 /* NAVBAR WRAPPER */
 .category-navbar {
-  background: linear-gradient(to right, #2D3A8C, #3D4FAC);
+  background: linear-gradient(to right, #2D3A8C, #3D4FAC, #E8C4C4);
   color: white;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
+/* NAVBAR LINKS & BUTTONS */
+.category-navbar a,
+.category-navbar button {
+  color: white;
+}
+
 
 /* INNER CONTAINER */
 .category-navbar-container {
