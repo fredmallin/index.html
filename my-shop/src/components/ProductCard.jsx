@@ -3,7 +3,7 @@ function ProductCard({ name, price, description, imageUrl, hidePrice }) {
     const message = encodeURIComponent(
       `Hello Mini Mingle, I would like to order ${name}${price ? ` (KSh ${price})` : ""}. ${description}`
     );
-    window.open(`https://wa.me/254700000000?text=${message}`, "_blank");
+    window.open(`https://wa.me/254705211143?text=${message}`, "_blank");
   };
 
   return (
