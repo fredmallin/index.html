@@ -6,31 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 
-const heroSlides = [
-  {
-    id: 1,
-    title: "Welcome to Mini Mingle",
-    subtitle: "Your trusted baby essentials store",
-    imageUrl:
-      "https://images.unsplash.com/flagged/photo-1556776124-2f0ebdaef26b?auto=format&fit=crop&w=1920&q=80",
-  },
-  {
-    id: 2,
-    title: "Mother & Baby Love",
-    subtitle: "Create beautiful moments together",
-    imageUrl:
-      "https://images.unsplash.com/photo-1542385151-efd9000785a0?auto=format&fit=crop&w=1920&q=80",
-  },
-  {
-    id: 3,
-    title: "Nursery Essentials",
-    subtitle: "Create the perfect space for your little one",
-    imageUrl:
-      "https://images.unsplash.com/photo-1776741146968-aa2dcea047d1?auto=format&fit=crop&w=1920&q=80",
-  },
-];
-
-function HeroSlider() {
+function HeroSlider({ products = [] }) {
   return (
     <div className="hero-wrapper">
       <Swiper
@@ -42,22 +18,20 @@ function HeroSlider() {
         loop
         className="hero-swiper"
       >
-        {heroSlides.map((slide) => (
-          <SwiperSlide key={slide.id}>
+        {products.map((product, index) => (
+          <SwiperSlide key={index}>
             <div className="hero-slide">
               <img
-                src={slide.imageUrl}
-                alt={slide.title}
+                src={product.imageUrl}
+                alt={product.name}
                 className="hero-image"
               />
 
               <div className="hero-overlay"></div>
 
               <div className="hero-content">
-                <h1>{slide.title}</h1>
-                <p>{slide.subtitle}</p>
-
-               
+                <h1>{product.name}</h1>
+                <p>{product.description} — KES {product.price.toLocaleString()}</p>
               </div>
             </div>
           </SwiperSlide>
