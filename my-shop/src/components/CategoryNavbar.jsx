@@ -13,23 +13,16 @@ const categories = [
       { name: "Towels & Washcloths", desc: "Bath Time Softness", image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=80&h=80&fit=crop" },
     ],
   },
+ 
   {
-    name: "Clothing",
-    subs: [
-      { name: "Rompers", desc: "Cute & Comfortable", image: "https://images.unsplash.com/photo-1604917013641-8f6c0c1b2cbb?w=80&h=80&fit=crop" },
-      { name: "Sweaters", desc: "Warm & Cosy", image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=80&h=80&fit=crop" },
-      { name: "Onesies", desc: "Soft Everyday Wear", image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=80&h=80&fit=crop" },
-      { name: "Dresses", desc: "Cute Girls Outfits", image: "https://images.unsplash.com/photo-1476234251651-f353703a034d?w=80&h=80&fit=crop" },
-      { name: "Baby Cotton Romper", description: "Soft breathable cotton romper for newborns", imageUrl: "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=400&h=400&fit=crop" },
-  { name: "Knitted Baby Sweater", description: "Warm knitted sweater for toddlers", imageUrl: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&h=400&fit=crop" },
-  { name: "Baby Onesie Set", description: "Soft cotton onesie pack of 3", imageUrl: "https://images.unsplash.com/photo-1617331140180-e8262094733a?w=400&h=400&fit=crop" },
-  { name: "Toddler Dress", description: "Cute floral dress for little girls", imageUrl: "https://images.unsplash.com/photo-1476234251651-f353703a034d?w=400&h=400&fit=crop" },
-  { name: "Baby Dungarees", description: "Comfortable denim dungarees", imageUrl: "https://images.unsplash.com/photo-1604917013641-8f6c0c1b2cbb?w=400&h=400&fit=crop" },
-  { name: "Hooded Jacket", description: "Warm fleece hooded jacket", imageUrl: "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=400&h=400&fit=crop" },
-  { name: "Baby Leggings Set", description: "Stretchy soft leggings pack", imageUrl: "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=400&h=400&fit=crop" },
-  { name: "Sleepsuit Set", description: "Cosy all-in-one sleepsuit", imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400&h=400&fit=crop" },
-    ],
-  },
+  name: "Clothing",
+  subs: [
+    { name: "Rompers", desc: "Cute & Comfortable", image: "https://images.unsplash.com/photo-1604917013641-8f6c0c1b2cbb?w=80&h=80&fit=crop" },
+    { name: "Sweaters", desc: "Warm & Cosy", image: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=80&h=80&fit=crop" },
+    { name: "Onesies", desc: "Soft Everyday Wear", image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=80&h=80&fit=crop" },
+    { name: "Dresses", desc: "Cute Girls Outfits", image: "https://images.unsplash.com/photo-1476234251651-f353703a034d?w=80&h=80&fit=crop" },
+  ],
+},
   {
     name: "Feeding",
     subs: [
