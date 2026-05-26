@@ -120,11 +120,10 @@ export default function CategoryNavbar() {
                   <div
                     key={sub.name}
                     onClick={() => {
-                      navigate(
-                         `/category/${cat.name.toLowerCase()}/${sub.name
-    .toLowerCase()
-    .replace(/ /g, "-")}`
+                   navigate(
+  `/category/${cat.name.toLowerCase().replace(/ /g, "-").replace(/&/g, "and")}/${sub.name.toLowerCase().replace(/ /g, "-").replace(/&/g, "and")}`
 );
+
                       setOpenMenu(null);
                     }}
                     style={{
