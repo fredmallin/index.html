@@ -1,8 +1,9 @@
-import { Search } from "lucide-react";
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../index.css";
 
-function TopNavbar({ searchQuery, setSearchQuery }) {
+function TopNavbar() {
+  const navigate = useNavigate();
+
   return (
     <div className="top-navbar">
       <div className="navbar-container">
@@ -16,8 +17,6 @@ function TopNavbar({ searchQuery, setSearchQuery }) {
           />
           <h1 className="logo-text">Mini Mingle</h1>
         </div>
-
-    
 
       </div>
     </div>

@@ -14,8 +14,8 @@ function App() {
       <CategoryNavbar />
       <Routes>
         <Route path="/" element={<HomePage searchQuery={searchQuery} />} />
-        <Route path="/category/:categoryName" element={<CategoryPage />} />
-      </Routes>
+<Route path="/category/:categoryName/:subcategory?" element={<CategoryPage />} />     
+ </Routes>
     </BrowserRouter>
   );
 }
