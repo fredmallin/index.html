@@ -1,6 +1,18 @@
 import { Mail, Phone, MapPin } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 function Footer() {
+  const navigate = useNavigate();
+
+  const categories = [
+    { label: "Baby Care",    route: "/category/baby-care" },
+    { label: "Clothing",     route: "/category/clothing" },
+    { label: "Feeding",      route: "/category/feeding" },
+    { label: "Mother Care",  route: "/category/mother-care" },
+    { label: "Nursery",      route: "/category/nursery" },
+    { label: "Playtime",     route: "/category/playtime" },
+  ];
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -20,26 +32,24 @@ function Footer() {
             </p>
 
             <div className="socials">
+  <a
+    href="https://www.instagram.com/minimingle"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="social-btn"
+  >
+    Instagram
+  </a>
 
-              <a
-                href="https://www.instagram.com/minimingle"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-btn"
-              >
-                Instagram
-              </a>
-
-              <a
-                href="https://www.tiktok.com/@minimingle"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-btn"
-              >
-                TikTok
-              </a>
-
-            </div>
+  <a
+    href="https://www.tiktok.com/@minimingle"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="social-btn"
+  >
+    TikTok
+  </a>
+</div>
           </div>
 
           {/* CATEGORIES */}
@@ -49,12 +59,15 @@ function Footer() {
             </h3>
 
             <ul className="footer-list">
-              <li>Baby Care</li>
-              <li>Clothing</li>
-              <li>Feeding</li>
-              <li>Mother Care</li>
-              <li>Nursery</li>
-              <li>Playtime</li>
+              {categories.map((cat) => (
+                <li
+                  key={cat.label}
+                  onClick={() => navigate(cat.route)}
+                  style={{ cursor: "pointer" }}
+                >
+                  {cat.label}
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -95,16 +108,13 @@ function Footer() {
             </div>
 
             <div className="newsletter">
-
               <input
                 type="email"
                 placeholder="Your email"
               />
-
               <button>
                 Subscribe
               </button>
-
             </div>
           </div>
 

@@ -6,11 +6,9 @@ function CategoryPage() {
   const { categoryName, subcategory } = useParams();
   const navigate = useNavigate();
 
-  // Keep hyphens to match product data exactly
   const mainCat = categoryName?.toLowerCase();
   const subCat = subcategory?.toLowerCase();
 
-  // Filter products
   const filteredProducts = products.filter((p) => {
     const productMain = p.category?.toLowerCase();
     const productSub = p.subcategory?.toLowerCase();
@@ -23,6 +21,13 @@ function CategoryPage() {
 
     return matchMain && matchSub;
   });
+
+  const handleWhatsAppOrder = (product) => {
+    const phone = "254705211143"; // 👈 Replace with your WhatsApp number
+    const message = `Hello Mini Mingle, I would like to order ${product.name}${product.price ? ` (KSh ${product.price})` : ""}. ${product.description}`;
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
 
   return (
     <>
@@ -111,18 +116,22 @@ function CategoryPage() {
                       KSh {product.price.toLocaleString()}
                     </span>
                     <button
-                      onClick={() => alert(`✅ ${product.name} has been added to cart!`)}
+                      onClick={() => handleWhatsAppOrder(product)}
                       style={{
-                        background: "#c8a96e",
-                        color: "#111",
+                        background: "linear-gradient(135deg, #4562f3 0%, #c0c1c2 100%)",
+                        color: "white",
                         border: "none",
                         padding: "10px 20px",
                         borderRadius: "6px",
                         fontWeight: "700",
-                        cursor: "pointer"
+                        cursor: "pointer",
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "6px",
+                        fontSize: "14px"
                       }}
                     >
-                      Order Now
+                    Order Now
                     </button>
                   </div>
                 </div>
