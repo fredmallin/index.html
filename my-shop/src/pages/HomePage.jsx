@@ -85,7 +85,7 @@ const categories = [
   {
     title: "Shoes",
     route: "/category/clothing/baby-shoes",
-    image: "https://images.unsplash.com/photo-1555214457-1b0c43f39b39?w=300&h=300&fit=crop"
+    image: "https://www.nillababyshop.com/images/baby-boy-crib-shoes-with-soft-sole-pre-walkers-2.jpg"
   },
   {
     title: "Baby Care",
@@ -105,7 +105,7 @@ const categories = [
   {
     title: "Feeding",
     route: "/category/feeding",
-    image: "https://images.unsplash.com/photo-1584118624012-df056829fbd0?w=300&h=300&fit=crop"
+    image: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/41/1676523/1.jpg?5763"
   },
 ];
 
