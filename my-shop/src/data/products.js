@@ -81,7 +81,7 @@ const products = [
   { id: "fd13", name: "Manual Breast Pump",             category: "feeding", subcategory: "breast-pumps", price: 1200, image: "https://www.nillababyshop.com/images/manual-breast-pump-2.jpg" },
   { id: "fd14", name: "Single wearable electic pump",        category: "feeding", subcategory: "breast-pumps", price: 6400,  image: "https://www.nillababyshop.com/images/single-wearable-electric-breast-pump-2.jpghttps://www.nillababyshop.com/images/double-wearable-electric-breast-pump-2.jpg" },
 
-  { id: "fd21", name: "Baby Nipple Pacifier", category: "feeding", subcategory: "bibs-and-burp-cloths", price: 160, image: "https://www.nillababyshop.com/images/baby-nipple-pacifier-2.jpg" },
+  { id: "fd21", name: "Baby Nipple Pacifier", category: "feeding", subcategory: "bibs-and-burp-cloths", price: 160, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaGxf-7Ig0IIWK1MVen3zWzU509UeR1wMzFNzX_vEuTA&s=10" },
   { id: "fd22", name: "Fruit Pacifier",        category: "feeding", subcategory: "bibs-and-burp-cloths", price: 400, image: "https://www.nillababyshop.com/images/fruit-pacifier-2.jpg" },
   { id: "fd23", name: "Momeasy Bbay Silicone Pacifier With Protective Cap",         category: "feeding", subcategory: "bibs-and-burp-cloths", price: 200, image: "https://www.nillababyshop.com/images/momeasy-baby-silicone-pacifier-with-protective-cap-3.jpg" },
   { id: "fd24", name: "Super Natural Elastic Silicone Pacifier",         category: "feeding", subcategory: "bibs-and-burp-cloths", price: 160, image: "https://www.nillababyshop.com/images/super-natural-elastic-silicone-pacifier-1.jpg" },
