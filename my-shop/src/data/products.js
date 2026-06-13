@@ -179,21 +179,21 @@ const products = [
   // ═══════════════════════════════════════════════════
   // WARMTH & SWADDLING
   // ══════════════════════════════════════════════════
-  { id: "ws1",  name: "3-Way Adjustable Wearable Blanket",        category: "warmth-and-swaddling", subcategory: "swaddle-blankets", price: 2000,  image: "/public/image 2c.jpeg" },
-  { id: "ws2",  name: "Baby Blankets Thick and Warm ",           category: "warmth-and-swaddling", subcategory: "swaddle-blankets", price: 1200, image: "/public/image 2c.jpeg" },
-  { id: "ws3",  name: "6 Piece cotton Flannel",             category: "warmth-and-swaddling", subcategory: "swaddle-blankets", price: 1200,  image: "/public/image 2c.jpeg" },
-  { id: "ws4",  name: "Cozy Unisex Baby Rompers Hooded Swaddle sleepsuit",          category: "warmth-and-swaddling", subcategory: "swaddle-blankets", price: 960, image: "/public/image 2c.jpeg" },
+  { id: "ws1",  name: "3-Way Adjustable Wearable Blanket",        category: "warmth-and-swaddling", subcategory: "swaddle-blankets", price: 2000,  image: "/public/3 way blanket.webp" },
+  { id: "ws2",  name: "Baby Blankets Thick and Warm ",           category: "warmth-and-swaddling", subcategory: "swaddle-blankets", price: 1200, image: "/public/thick baby blankets.webp" },
+  { id: "ws3",  name: "6 Piece cotton Flannel",             category: "warmth-and-swaddling", subcategory: "swaddle-blankets", price: 1200,  image: "/public/6 piece flannel.webp" },
+  { id: "ws4",  name: "Cozy Unisex Baby Rompers Hooded Swaddle sleepsuit",          category: "warmth-and-swaddling", subcategory: "swaddle-blankets", price: 960, image: "/public/unisex rompers.webp" },
  
-  { id: "ws11", name: "Soft Baby Shawl",                 category: "warmth-and-swaddling", subcategory: "shawls", price: 1440,  image: "/public/image 2c.jpeg" },
-  { id: "ws12", name: "Cozy Baby Shawl",              category: "warmth-and-swaddling", subcategory: "shawls", price: 1200,  image: "/public/image 2c.jpeg" },
-  { id: "ws13", name: "Elegant Warm Fluffy Shawl",                category: "warmth-and-swaddling", subcategory: "shawls", price: 1200, image: "/public/image 2c.jpeg" },
-  { id: "ws14", name: "Warm Fleece Newborn Shawl",              category: "warmth-and-swaddling", subcategory: "shawls", price: 1200,  image: "/public/image 2c.jpeg" },
+  { id: "ws11", name: "Soft Baby Shawl",                 category: "warmth-and-swaddling", subcategory: "shawls", price: 1440,  image: "/public/softbaby shawl.webp" },
+  { id: "ws12", name: "Cozy Baby Shawl",              category: "warmth-and-swaddling", subcategory: "shawls", price: 1200,  image: "/public/cozy shawl.webp" },
+  { id: "ws13", name: "Elegant Warm Fluffy Shawl",                category: "warmth-and-swaddling", subcategory: "shawls", price: 1200, image: "/public/fluffy shawl 2.webp" },
+  { id: "ws14", name: "Warm Fleece Newborn Shawl",              category: "warmth-and-swaddling", subcategory: "shawls", price: 1200,  image: "/public/fleece shawl.webp" },
 
-  { id: "ws21", name: "Cotton Baby Mittens",      category: "warmth-and-swaddling", subcategory: "baby-hats-and-mittens", price: 320,  image: "/public/image 2c.jpeg" },
-  { id: "ws22", name: "Baby Hat Set",              category: "warmth-and-swaddling", subcategory: "baby-hats-and-mittens", price: 80,  image: "/public/image 2c.jpeg" },
+  { id: "ws21", name: "Cotton Baby Mittens",      category: "warmth-and-swaddling", subcategory: "baby-hats-and-mittens", price: 320,  image: "/public/cotton baby mittens.webp" },
+  { id: "ws22", name: "Baby Hat Set",              category: "warmth-and-swaddling", subcategory: "baby-hats-and-mittens", price: 80,  image: "/public/babyhats and mittens.webp" },
   { id: "ws23", name: "Bear Printed  Baby Beanie",             category: "warmth-and-swaddling", subcategory: "baby-hats-and-mittens", price: 80,  image: "/public/image 2c.jpeg" },
-  { id: "ws24", name: "Kid's Turban Head Wrap",                 category: "warmth-and-swaddling", subcategory: "baby-hats-and-mittens", price: 400,  image: "/public/image 2c.jpeg" },
-  { id: "ws25", name: "Silicon Infant mittens for teething",     category: "warmth-and-swaddling", subcategory: "baby-hats-and-mittens", price: 400,  image: "/public/image 2c.jpeg" },
+  { id: "ws24", name: "Kid's Turban Head Wrap",                 category: "warmth-and-swaddling", subcategory: "baby-hats-and-mittens", price: 400,  image: "/public/turban wrap.webp" },
+  { id: "ws25", name: "Silicon Infant mittens for teething",     category: "warmth-and-swaddling", subcategory: "baby-hats-and-mittens", price: 400,  image: "/public/silcon teething.webp" },
  
 ];
 
