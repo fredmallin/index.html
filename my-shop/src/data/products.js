@@ -3,7 +3,7 @@ const products = [
   // ═══════════════════════════════════════════════════
   // BABY CARE
   // ═══════════════════════════════════════════════════
-  { id: "bc1",  name: "Complete Baby Bath Set",         category: "baby-care", subcategory: "bathing-and-laundry", price: 980,  image: "https://www.nillababyshop.com/images/4pcs-smart-silicone-infant-bath-set-real-time-temperature-monitor-non-slip-folding-bathtub-ergonomic-foot-basin-2.jpg" },
+  { id: "bc1",  name: "Complete Baby Bath Set",         category: "baby-care", subcategory: "bathing-and-laundry", price: 980,  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvB2ks0qTvZSaN8MdAq78v4Sh9Tou-DLhgBTmXrD-1dw&s=10" },
   { id: "bc2",  name: "Baby Laundry Detergent",         category: "baby-care", subcategory: "bathing-and-laundry", price: 450,  image: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/36/6382523/1.jpg?9130" },
   { id: "bc3",  name: "Soft Baby Towel Set",            category: "baby-care", subcategory: "bathing-and-laundry", price: 620,  image: "https://www.nillababyshop.com/images/soft-baby-cotton-towel-2.jpg" },
   { id: "bc4",  name: "Baby Bath Tub",                  category: "baby-care", subcategory: "bathing-and-laundry", price: 1200, image: "https://www.nillababyshop.com/images/foldable-baby-bath-station-with-changing-mat-storage-shelf-lockable-wheels-2.jpg" },
